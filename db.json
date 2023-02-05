@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "age": 18,
+      "gender": "woman",
+      "laptop": "acer"
+    },
+    {
+      "id": 2,
+      "name": "Oleg",
+      "age": 16,
+      "gender": "man",
+      "laptop": "lenovo"
+    },
+    {
+      "id": 3,
+      "name": "Mader",
+      "age": "20",
+      "gender": "man",
+      "laptop": "hp"
+    },
+    {
+      "id": 4,
+      "name": "Frola",
+      "age": "30",
+      "gender": "woman",
+      "laptop": "msi"
+    },
+    {
+      "id": 5,
+      "name": "Jane",
+      "age": 24,
+      "gender": "woman",
+      "laptop": "samsung"
+    },
+    {
+      "id": 6,
+      "name": "Kate",
+      "age": 23,
+      "gender": "woman",
+      "laptop": "lenovo"
+    },
+    {
+      "id": 7,
+      "name": "John",
+      "age": 13,
+      "gender": "man",
+      "laptop": "dell"
+    },
+    {
+      "id": 8,
+      "name": "Artur",
+      "age": "30",
+      "gender": "man",
+      "laptop": "apple"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

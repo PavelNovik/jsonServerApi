@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Work with server</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Work with server</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptates amet veritatis unde beatae iste,
+            reiciendis harum nisi numquam, necessitatibus a, repellat aperiam similique dolores! Esse eaque quibusdam
+            impedit laboriosam!</p>
+
+        <input type="search" name="" class="search" id="">
+
+        <select name="" id="" class="selectLaptop">
+            <option value="">all</option>
+            <option value="acer">acer</option>
+            <option value="lenovo">lenovo</option>
+            <option value="hp">hp</option>
+            <option value="msi">msi</option>
+            <option value="samsung">samsung</option>
+            <option value="dell">dell</option>
+            <option value="apple">apple</option>
+            <option value="huawei">huawei</option>
+        </select>
+
+        <button class="adduser__menu">Add New User</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Laptop</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="table__body">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Alex</td>
+                    <td>18</td>
+                    <td>Woman</td>
+                    <td>Acer</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <div class="overlay hide">
+        <div class="popup">
+            <form action="" class="form">
+                <span class="close">X</span>
+                <input type="text" class="form__input name" placeholder="Name">
+                <input type="number" class="form__input age" placeholder="Age">
+                <div class="form__block">
+                    <label for="" class="form__label">
+                        <input class="gender man" type="radio" name="gender" id="" value="man">M
+                    </label>
+                    <label for="" class="form__label">
+                        <input class="gender woman" type="radio" name="gender" id="" value="woman">W
+                    </label>
+                </div>
+                <input type="text" class="form__input laptop" placeholder="Laptop">
+                <input type="hidden" name="" class="userId">
+                <button type="submit" class="form__btn"></button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
